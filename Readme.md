@@ -12,7 +12,7 @@
 
 <img src="./frontend/public/images/ảnh 2.png">
 
-<img src="./frontend/public/images/ảnh 3.png">
+<img src="./frontend/public/images/Ảnh 3.png">
 
 <img src="./frontend/public/images/ảnh 4.png">
 
