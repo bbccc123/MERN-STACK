@@ -1,0 +1,65 @@
+.countdown-timer {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.countdown-item {
+  text-align: center;
+  font-size: 52px;
+  line-height: 52px;
+  border-radius: 9px;
+  padding: 15px 21px 15px 21px !important;
+  font-weight: 500;
+  color: #fff;
+  background-color: #000 !important;
+}
+
+.timer {
+  display: flex;
+}
+.space-item {
+  text-align: center;
+  font-size: 52px;
+  line-height: 52px;
+  font-family: 'Open Sans';
+  padding: 15px 10px 15px 10px;
+  font-weight: 500;
+  color: #000;
+}
+
+.timer-item {
+  text-align: center;
+  font-size: 21px;
+  padding: 0px 20px 20px 15px;
+  font-weight: 700;
+  color: #000;
+  margin-right: 47px;
+}
+.countdown-item:last-child {
+  margin-right: 0;
+}
+.discount-percentage {
+  font-size: 0.6em;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.black-friday-container {
+  align-items: center;
+  animation: ring 0.2s ease-out infinite alternate;
+}
+
+@keyframes ring {
+  from {
+    transform: rotate(3deg);
+  }
+  to {
+    transform: rotate(-3deg);
+  }
+}
