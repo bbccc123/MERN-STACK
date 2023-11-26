@@ -1,8 +1,8 @@
 # Hồ Duy Hoàng - 20110487
 
-## Em xin gửi lời cảm ơn chân thành đến Thầy Nguyễn Minh Đạo đã dạy và truyền đạt những kiến thức quý giá cho em trong suốt thời gian học tập vừa qua. Trong thời gian tham gia lớp công nghệ phần mềm mới của thầy, em đã biết thêm nhiều kiến thức bổ ích, trau dồi cho bản thân, tinh thần học tập nghiêm túc và hiệu quả. Đây chắc chắn sẽ là những kiến thức có giá trị sâu sắc, là hành trang để em vững bước sau này trở thành một coder chuyên nghiệp.
+#### Em xin gửi lời cảm ơn chân thành đến Thầy Nguyễn Minh Đạo đã dạy và truyền đạt những kiến thức quý giá cho em trong suốt thời gian học tập vừa qua. Trong thời gian tham gia lớp công nghệ phần mềm mới của thầy, em đã biết thêm nhiều kiến thức bổ ích, trau dồi cho bản thân, tinh thần học tập nghiêm túc và hiệu quả. Đây chắc chắn sẽ là những kiến thức có giá trị sâu sắc, là hành trang để em vững bước sau này trở thành một coder chuyên nghiệp.
 
-## Bộ môn công nghệ phần mềm mới là môn học thú vị, bổ ích và có tính thực tế cao. Đảm bảo cung cấp đầy đủ kiến thức, kỹ năng, giúp sinh viên có thể ứng dụng vào công nghệ xây dựng trang web hiện nay. Tuy nhiên, do khả năng tiếp thu kiến thức còn nhiều hạn hẹp, hiểu chưa sâu rộng nên bài đồ án khó tránh khỏi những thiếu sót, kính mong thầy xem xét và góp ý để bài đồ án của em được hoàn thiện và tốt hơn.
+#### Bộ môn công nghệ phần mềm mới là môn học thú vị, bổ ích và có tính thực tế cao. Đảm bảo cung cấp đầy đủ kiến thức, kỹ năng, giúp sinh viên có thể ứng dụng vào công nghệ xây dựng trang web hiện nay. Tuy nhiên, do khả năng tiếp thu kiến thức còn nhiều hạn hẹp, hiểu chưa sâu rộng nên bài đồ án khó tránh khỏi những thiếu sót, kính mong thầy xem xét và góp ý để bài đồ án của em được hoàn thiện và tốt hơn.
 
 # Utalik Shop Ecommerce của Hoàng, Đồ án Công nghệ phần mềm mới
 
