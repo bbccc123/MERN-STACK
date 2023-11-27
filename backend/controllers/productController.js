@@ -96,7 +96,7 @@ const createProductReview = asyncHandler(async (req, res) => {
 
     if (alreadyReviewed) {
       res.status(400);
-      throw new Error('Sản phẩm đã tồn tại!');
+      throw new Error('Đã đánh giá sản phẩm này!');
     }
 
     const review = {
