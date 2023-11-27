@@ -52,7 +52,7 @@ const ProductEditScreen = () => {
         description,
         countInStock,
       }).unwrap();
-      toast.success('Product updated');
+      toast.success('Cập nhật sản phẩm thành công!');
       refetch();
       navigate('/admin/productlist');
     } catch (err) {
@@ -113,7 +113,7 @@ const ProductEditScreen = () => {
               <Form.Label>Giá giảm</Form.Label>
               <Form.Control
                 type='number'
-                placeholder='Nhập giá discount'
+                placeholder='Nhập giá khuyến mãi'
                 value={price}
                 onChange={(e) => setPrice(e.target.value)}
               ></Form.Control>
