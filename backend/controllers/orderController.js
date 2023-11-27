@@ -62,7 +62,7 @@ const getOrderById = asyncHandler(async (req, res) => {
     res.json(order);
   } else {
     res.status(404);
-    throw new Error('Order not found');
+    throw new Error('Không tìm thấy đơn hàng');
   }
 });
 const updateOrderToPaid = asyncHandler(async (req, res) => {
@@ -85,12 +85,6 @@ const updateOrderToPaid = asyncHandler(async (req, res) => {
       res.status(404);
       throw new Error('Không tìm thấy đơn hàng');
     }
-
-    // const paidCorrectAmount = order.totalPrice.toString() === value;
-
-    // if (!paidCorrectAmount) {
-    //   throw new Error('Số tiền thanh toán không đúng');
-    // }
 
     order.isPaid = true;
     order.paidAt = Date.now();
@@ -121,7 +115,7 @@ const updateOrderToDelivered = asyncHandler(async (req, res) => {
     res.json(updatedOrder);
   } else {
     res.status(404);
-    throw new Error('Order not found');
+    throw new Error('Không tìm thấy đơn hàng');
   }
 });
 const getOrders = asyncHandler(async (req, res) => {

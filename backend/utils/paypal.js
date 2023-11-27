@@ -4,11 +4,10 @@ dotenv.config();
 const { PAYPAL_CLIENT_ID, PAYPAL_APP_SECRET, PAYPAL_API_URL } = process.env;
 
 /**
- * Fetches an access token from the PayPal API.
  * @see {@link https://developer.paypal.com/reference/get-an-access-token/#link-getanaccesstoken}
  *
- * @returns {Promise<string>} The access token if the request is successful.
- * @throws {Error} If the request is not successful.
+ * @returns {Promise<string>}
+ * @throws {Error}
  *
  */
 async function getPayPalAccessToken() {
@@ -39,13 +38,12 @@ async function getPayPalAccessToken() {
 }
 
 /**
- * Checks if a PayPal transaction is new by comparing the transaction ID with existing orders in the database.
- *
- * @param {Mongoose.Model} orderModel - The Mongoose model for the orders in the database.
- * @param {string} paypalTransactionId - The PayPal transaction ID to be checked.
- * @returns {Promise<boolean>} Returns true if it is a new transaction (i.e., the transaction ID does not exist in the database), false otherwise.
- * @throws {Error} If there's an error in querying the database.
- *
+
+ * @param {Mongoose.Model} orderModel
+ * @param {string} paypalTransactionId
+ * @returns {Promise<boolean>}
+ * @throws {Error}
+
  */
 export async function checkIfNewTransaction(orderModel, paypalTransactionId) {
   try {
@@ -60,13 +58,11 @@ export async function checkIfNewTransaction(orderModel, paypalTransactionId) {
 }
 
 /**
- * Verifies a PayPal payment by making a request to the PayPal API.
+
  * @see {@link https://developer.paypal.com/docs/api/orders/v2/#orders_get}
- *
  * @param {string} paypalTransactionId
  * @returns {Promise<Object>}
  * @throws {Error}
- *
  */
 export async function verifyPayPalPayment(paypalTransactionId) {
   const accessToken = await getPayPalAccessToken();
@@ -79,7 +75,7 @@ export async function verifyPayPalPayment(paypalTransactionId) {
       },
     }
   );
-  if (!paypalResponse.ok) throw new Error('Failed to verify payment');
+  if (!paypalResponse.ok) throw new Error('Lỗi xác thực thanh toán');
 
   const paypalData = await paypalResponse.json();
   return {
