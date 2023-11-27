@@ -240,7 +240,8 @@ const OrderScreen = () => {
                   <Col>{formatPrice(order.totalPrice)}</Col>
                 </Row>
               </ListGroup.Item>
-              {!order.isPaid && (
+              {!order.isPaid &&
+                order.user._id.toString() === userInfo._id.toString() && (
                 <ListGroup.Item>
                   {loadingPay && <Loader />}
 
