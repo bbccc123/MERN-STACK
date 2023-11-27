@@ -8,7 +8,7 @@ export function calcPrices(orderItems) {
     0
   );
 
-  const shippingPrice = itemsPrice > 150000 ? 0 : 10;
+  const shippingPrice = itemsPrice > 150000 ? 0 : 30000;
 
   const taxPrice = 0.15 * itemsPrice;
 
